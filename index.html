@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body {
+        margin: 0px;
+        font-family: Arial,sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        color: white;
+        background-image: url(spotify-generos.jpg);
+        background-position: center;
+        background-size: cover;
+        backdrop-filter: blur(50px);
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    .images-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+        margin-bottom: 25px;
+        padding-right: 50px;
+    }
+
+    .images-grid img {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    h1 {
+        font-size: 20px;
+        margin-bottom: 20px;
+        padding-right: 47px;
+    }
+
+    .btn {
+        display: block;
+        width: 80%;
+        max-width: 300px;
+        margin: 10px;
+        padding: 10px;
+        border: none;
+        border-radius: 20px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .btn-green {
+        background-color: #1DB954;
+        color: black;
+    }
+
+    .btn-google {
+        background-color: white;
+        color: black;
+    }
+
+    .btn-facebook {
+        background-color: #1877f2;
+        color: white;
+    }
+
+    .btn-apple {
+        background-color: black;
+        color: white;
+    }
+
+    .login-link {
+        margin-top: 20px;
+        color: white;
+        font-size: 14px;
+        text-decoration: none;
+        padding-right: 60px;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="images-grid">
+            <img src="Spotify_Primary_Logo_RGB_White.png" alt="imagen 1">
+        </div>
+        <h1>Millions of Songs, Free on Spotify.</h1>
+        <button class="btn btn-green">Sign up Free</button>
+        <button class="btn btn-google">Continue with Google</button>
+        <button class="btn btn-facebook">Continue with facebook</button>
+        <button class="btn btn-apple">Continue with Apple</button>
+        <a href="#" class="login-link">log in</a>
+    </div>
+</body>
+</html>
