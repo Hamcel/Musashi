@@ -1,0 +1,96 @@
+body {
+    padding-left: 20px;
+    margin-top: 290px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    font-family: Arial,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: black;
+    background-image: url(spotify-generos.jpg);
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: blur(50px);
+    }
+
+h1 {
+    color: white;
+    font-size: 4vh;
+    margin-left: 37px;
+}
+
+label {
+    color: white;
+    margin: 10px;
+    margin-left: 83px;
+}
+
+.info-text {
+    color: gray;
+    font-size: x-small;
+    margin-left: 105px;
+    margin-top: 5px;
+}
+
+.next-button {
+    background-color: gray;
+    color: black;
+    border-radius: 20px 20px 20px 20px;
+    border: 2vh;
+    padding: 7px;
+    height: 36px;
+    width: 100px;
+    font-size: large;
+    margin-left: 106px;
+    margin-top: 13px;
+}
+
+.next-button:hover {
+    background-color:darkgray;
+    border-radius: 20px 20px 20px 20px;
+    border: 2vh;
+}
+
+.back-button {
+    border-radius: 40px 40px 40px 40px;
+    border: 2vh;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.back-button:hover {
+    color: rgb(0, 0, 0);
+    background-color: darkgray;
+}
+
+#email {
+    margin-top: 10px;
+    margin-left: 68px;
+    background-color: gray;
+    border: 2px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+#email:hover {
+    background-color: darkgrey;
+}
+
+::placeholder {
+    color: white;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: rgb(78, 78, 78);
+    width: 325px;
+    height: 300px;
+    box-shadow: 0 0 25px 0;
+    border-radius: 15px 15px 15px 15px;
+}
