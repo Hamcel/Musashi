@@ -1,39 +1,88 @@
-.partearriba {
-    background-color: #292929;
-    height: 110px;
-    width: 1280px;
-    margin-left: -8px;
-    margin-top: -8px;
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
 
-header {
-    background-color: #d30707;
-    height: 50px;
-    width: 1280px;
-    margin-left: -8px;
-    margin-top: -8px;
+body {
+    min-height: 100vh;
+    background-image: url(rin\ itoshi.png);
+    background-repeat: no-repeat;
+    display: grid;
+    background-size: cover;
+    background-position: center;
+    place-items: center;
 }
 
-.busqueda {
-    margin-left: px;
-    margin-top: 70px;
-    padding: 5px;
+.calculadora {
+    background-color: #1d2441;
+    color: white;
+    width: 350px;
+    max-width: 100%;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: .5rem;
+    box-shadow: 0 0 20px black;
+}
+
+#resultados {
+    grid-column: 1/5;
+    background-color: #090c31;
+    padding: 1.5rem;
+    font-size: 2rem;
+    text-align: right;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
     border: 0;
-    border-radius: 5px;
 }
 
-.moneda {
-    margin-left: px;
-    padding: 4px;
-    border-radius: 5px;
+
+.btn {
+    background-color: #7e7c7c;
+    color: white;
+    border: 0;
+    padding: 1.5rem .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+    cursor: pointer;
+    font-size: medium;
 }
 
-.boton {
-    padding: 5px;
-    border-radius: 5px;
+.btn:hover {
+    background-color: #535353;
+    font-weight: bold;
 }
 
-.boton:hover {
-    color: black;
-    background-color: rgb(199, 197, 197);
+#cero {
+    grid-column: span 2;
+}
+
+#igual {
+    grid-row: span 2;
+    background-color: #e00101;
+}
+
+#igual:hover {
+    background-color: #9a0000;
+}
+
+img {
+    height: 110vh;
+    width: 50vh;
+    position: absolute;
+    margin-right: 70%;
+    margin-top: 15rem;
+}
+
+.luck {
+    position: absolute;
+    margin-bottom: 50%;
+    height: 33rem;
 }

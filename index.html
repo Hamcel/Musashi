@@ -1,42 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="partearriba">
-    <select class="moneda">
-      <option value="">RD(DOP)</option>
-      <option value="">US(USD)</option>
-      <option value="">€(EUR)</option>
-    </select><input type="text" placeholder="Buscar" class="busqueda" /><button type="submit" class="boton">
-      Buscar
-    </button>
-  </div>
-  <header>
-    <select name="Nuestros productos">
-      <option value=""></option>
-      <option value="">Arte y Manuakidades</option>
-      <option value="">Computadoras</option>
-      <option value="">Punto De Venta</option>
-      <option value="">Servidores,Almacenamiento</option>
-    </select>
-  </header>
-  <div class="product-card">
-    <div class="image-container">
-      <img src="asus rog strix g16.webp" alt="asuslaptop" />
-      <button class="detalles-boton">Ver Detalles</button>
+    <img class="luck" src="luck-removebg-preview.png" alt="">
+    <img src="isagiiiiiiiiiiiiiiiii-removebg-preview.png" alt="">
+    <div class="calculadora">
+        <input id="resultados" type="text" readonly>
+        <button id="c" class="btn">C</button>
+        <button id="borrar" class="btn">←</button>
+        <button class="btn">/</button>
+        <button class="btn">*</button>
+        <button class="btn">7</button>
+        <button class="btn">8</button>
+        <button class="btn">9</button>
+        <button class="btn">-</button>
+        <button onclick="agregar('4')" class="btn">4</button>
+        <button class="btn">5</button>
+        <button class="btn">6</button>
+        <button class="btn">+</button>
+        <button onclick="agregar('1')" class="btn">1</button>
+        <button onclick="agregar('2')" class="btn">2</button>
+        <button onclick="agregar('3')" class="btn">3</button>
+        <button id="igual" class="btn">=</button>
+        <button id="cero" class="btn">0</button>
+        <button class="btn">.</button>
     </div>
-    <div class="info-producto">
-      <p class="nombre-producto">
-        ASUS ASUS ROG Strix G16 16” FHD 165Hz Gaming Laptop, Core i7-13650HX,
-        32GB RAM, RTX 4050, 1TB SSD, Windows 11, G614JU-IS76
-      </p>
-      <p class="precio-producto"></p>
-    </div>
-  </div>
+    <script src="hola.js"></script>
 </body>
+
 </html>
